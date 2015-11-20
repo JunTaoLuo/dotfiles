@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = John Luo
+	email = jt.luo@mail.utoronto.ca
+[core]
+	editor = vim
+	autocrlf = true
+	excludesfile = ~/.gitignore_global
